@@ -1,5 +1,6 @@
-package io.javabrains.springbootstarter.topic;
+package io.javabrains.springbootstarter.repository;
 
+import io.javabrains.springbootstarter.entity.Topic;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

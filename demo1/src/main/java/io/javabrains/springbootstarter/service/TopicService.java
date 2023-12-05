@@ -1,9 +1,8 @@
-package io.javabrains.springbootstarter.topic;
+package io.javabrains.springbootstarter.service;
 
+import io.javabrains.springbootstarter.repository.TopicRepository;
+import io.javabrains.springbootstarter.entity.Topic;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

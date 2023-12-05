@@ -10,10 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
-
-@EntityScan("io.javabrains.springbootstarter.topic")
-@EnableJpaRepositories("io.javabrains.springbootstarter.topic")
-@ComponentScan("io.javabrains.springbootstarter.topic")
+//@EntityScan("io.javabrains.springbootstarter.repository")
+//@EnableJpaRepositories("io.javabrains.springbootstarter.repository")
+//@ComponentScan("io.javabrains.springbootstarter.repository")
 public class CourseApiApp {
 
     public static void main(String[] args) {
