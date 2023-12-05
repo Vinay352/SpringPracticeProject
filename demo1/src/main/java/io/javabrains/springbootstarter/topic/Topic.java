@@ -1,10 +1,15 @@
 package io.javabrains.springbootstarter.topic;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Topic {
 
+    @Id
     private String id;
     private String name;
-    private String decription;
+    private String description;
 
     public Topic(){
 
@@ -13,7 +18,7 @@ public class Topic {
     public Topic(String id, String name, String description) {
         this.id = id;
         this.name = name;
-        this.decription = description;
+        this.description = description;
     }
 
     public String getId() {
@@ -32,12 +37,12 @@ public class Topic {
         this.name = name;
     }
 
-    public String getDecription() {
-        return decription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDecription(String decription) {
-        this.decription = decription;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
 }
